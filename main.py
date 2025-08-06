@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # === Конфигурация ===
 TELEGRAM_TOKEN = "8035943979:AAHnEJsv1fQwSfMocXhXAeuNH_dck7eZkdA"
 CHAT_ID = "662228268"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 
 # Bybit API
 BYBIT_API_KEY = "02lQBpPCobvcDq6ZNO"
@@ -179,3 +179,4 @@ schedule.every(4).hours.do(job)
 while True:
     schedule.run_pending()
     time.sleep(10)
+
